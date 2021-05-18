@@ -73,7 +73,7 @@ settings   => {
     'PHP/memory_limit'        => '512M',
     'PHP/post_max_size'       => '100M',
     'PHP/upload_max_filesize' => '100M',
-    'Date/date.timezone'      => 'America/Caracas',
+    'Date/date.timezone'      => 'America/Guatemala',
   },
 extensions => {
     imagick  => {},
