@@ -1,4 +1,4 @@
-FROM phusion/baseimage
+FROM phusion/baseimage:bionic-1.0.0
 MAINTAINER  Javier Calles "javiercalles@gmail.com"
 ENV LANG en_US.UTF-8
 CMD ["/bin/bash"]
