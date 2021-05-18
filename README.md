@@ -14,6 +14,6 @@ https://github.com/GrayCygnus/scriptcase-docker.git
 docker-compose up -d
 
 URLS:
-Scriptcase: http://localhost:8090
-Logs:  http://localhost:8080
+Scriptcase: http://localhost:8092
+Logs:  http://localhost:8079
 
