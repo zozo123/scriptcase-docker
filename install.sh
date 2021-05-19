@@ -11,7 +11,7 @@ puppet(){
 cd /tmp && curl -O http://apt.puppetlabs.com/puppetlabs-release-pc1-xenial.deb \
 	&& dpkg -i puppetlabs-release-pc1-xenial.deb \
 	&& apt-get update \
-	&& apt-get -y install wget awscli  puppet git  curl acl mysql-client unzip python-software-properties software-properties-common \
+	&& apt-get -y install wget awscli  puppet git  curl acl mysql-client unzip software-properties-common \
 	&& gem install r10k
 }
 
