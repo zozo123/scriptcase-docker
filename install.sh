@@ -8,8 +8,8 @@ then
 		fi
 
 puppet(){
-cd /tmp && curl -O http://apt.puppetlabs.com/puppetlabs-release-pc1-xenial.deb \
-	&& dpkg -i puppetlabs-release-pc1-xenial.deb \
+cd /tmp && curl -O http://apt.puppetlabs.com/puppet-release-bionic.deb \
+	&& dpkg -i puppet-release-bionic.deb \
 	&& apt-get update \
 	&& apt-get -y install wget awscli  puppet git  curl acl mysql-client unzip software-properties-common \
 	&& gem install r10k
