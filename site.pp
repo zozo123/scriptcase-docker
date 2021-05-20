@@ -18,7 +18,7 @@ class { 'apache':
   service_manage => false,
 }
 
-apache::vhost{ "default.soltisam.com":
+apache::vhost{ "sc.aerobots.gt":
         tag 	 =>  ['apache', 'build'],
 	port => '80',
 	docroot => "/var/www/html/",
