@@ -1,11 +1,8 @@
 
-###  How TO:
-
-#### Download:
-https://downloads.scriptcase.com.br/downloads/v9/packs/scriptcase-9.3.002-es_es.zip
+###  HOWTO
 
 #### Clone This Repo:
-https://github.com/GrayCygnus/scriptcase-docker.git
+https://github.com/zozo123/scriptcase-docker
 
 #### Put uncompress scriptcase dir into data dir
 
@@ -16,4 +13,3 @@ docker-compose up -d
 URLS:
 Scriptcase: http://localhost:8092
 Logs:  http://localhost:8079
-
